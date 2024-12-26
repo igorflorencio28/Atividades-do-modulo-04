@@ -1,0 +1,122 @@
+    <!--                                                  Aula 04 - Atividade 05
+        
+        Atividade: Criação de Currículo com Estilização Básica e Estrutura Semântica
+
+        Enunciado: Crie uma página HTML com um currículo simples (Ou refaça um existente) que inclua uma imagem de perfil, informações básicas,
+        experiência profissional e formação acadêmica. Use CSS para estilizar o fundo, fontes, tamanhos, espaçamentos, bordas e aplicar arredondamento. Organize o conteúdo usando seções semnânticas e não semânticas.
+
+        Instruções: 
+        1 - HTML
+            A - Utilize elementos semânticos como <header>, <nav>, <main>, <section>, <article>, <aside>, e <footer> para estruturar o conteúdo do currículo.
+            B - Dentro das seções semânticas, utilize <div> e <span> para organização não semântica.
+            C- Adicione uma imagem (<img>) para o perfil, um título (<h2>) para o nome do candidato, e parágrafos (<p>) para descrição pessoal
+            os detalhes de contato.
+            D - Crie seções para a experiência profissional e formação acadêmica, utilizando as tags apropriadas.
+        2 - CSS:
+            A - Aplique estilos semelhantes à versão anterior, ajustando background-color, padding, margin, border, border-radius, font-family, font-size, e font-weight.
+            B - Estilize as  seções semânticas e não semânticas para melhorar a aparência do currículo.
+
+            Objetivo: Praticar a inserção de imagens e a aplicação de estilos CSS, além de compreender a diferença entre elementos semânticos e não semânticos 
+            na estrutura de um currículo em HTML. */  -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículo</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <section class="cabeçalho">
+                <div>
+                    <img src="imagens/falso-pastor.png" alt="Igor Florêncio" class="imagem">
+                    <div class="informações">
+                    <h2><em>Igor de Oliveira Florêncio</em></h2>
+                        <p >Brasileiro, solteiro, 28 anos <br>Telefone: (85)99648-2006 <br>
+                        Fortaleza - CE <br>E-mail: igor_florencio@yahoo.com
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <div class="formação">
+                        <span>
+                            <h2>• Formação</h2>
+                        </span> <!-- Formação -->
+                        <ul type="disc">
+                            <li>Ensino médio completo</li>
+                            <li>Cursando programação na escola Infinity school</li>
+                            <li>Cursando inglês na escola Invictus idiomas</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            
+            <section>
+                <div class="experiencia">
+                    <span>
+                        <h2>• Experiência</h2>
+                    </span> <!-- Experiências -->
+                    <article>
+                        <div class="experiencia1">
+                        <h3>Nordeste Locações (05/07/2023 - Atualmente)</h3> <!-- 1ª experiência -->
+                        <ul type="circle">
+                            <strong><li type="square">Assistente Financeiro</li></strong> <br>
+                            <li>Responsável pela organização dos pagamentos da empresa, fazendo lançamento dos pagamentos no sistema.
+                            <li>Fazer o arquivo remessa no banco
+                            <li>Faturamento
+                            <li>Conferência bancária
+                            <li>Conferência da fatura do cartão
+                        </ul>
+                    </div>
+                        </article>
+                    <article>
+                        <div class="experiencia2">
+                            <h3>Supermercado Cometa (24/01/2022 - 30/06/2023)</h3> <!-- 2ª experiência -->
+                            <ul>
+                                <li type="square">Auxiliar de armazenamento</li> <br>
+                                <li type="circle">Responsável pelo armazenamento, organização das avarias da loja e emissão de notas de devolução.</li>
+                            </ul>
+                        </div>
+                    </article>
+                        <article>
+                            <div class="experiencia3">
+                                <h3>Supermercado Guará (05/07/2018 - 01/09/2021):</h3> <!-- 3ª experiência -->
+                                <ul>
+                                    <strong><li type="square">Empacotador</li></strong> <br>
+                                    <li type="circle">Auxílio no empacotamento das compras dos clientes e atendimento em geral</li><br>
+                                    <strong><li type="square">Auxiliar de depósito</li></strong> <br>
+                                    <li type="circle">Auxílio no armazenamento, descarregamento e organização das mercadorias</li><br>
+                                    <strong><li type="square">Assistente de prevenção</li></strong> <br>
+                                    <li type="circle">Responsável pelo controle de avarias, descarte, emissão de notas fiscais e participação de inventários</li><br>
+                                    <strong><li type="square">Encarregado de prevenção</li></strong> <br>
+                                    <li type="circle">Responsável pela supervisão dos inventários e correção de estoque das lojas.</li>
+                                </ul>
+                            </div>
+                        </article>
+                </div>
+            </section>
+
+            <footer> <!-- footer -->
+            <article>
+                <span>
+                    <h2>• Habilidades</h2>
+                </span>
+                <ul>
+                    <li>Proatividade</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Resiliência</li>
+                    <li>Empatia</li>
+                    <li>Ética de trabalho</li>
+                </ul>
+            </article>
+        </main>
+    </footer>
+    
+    </body>
+    </html>

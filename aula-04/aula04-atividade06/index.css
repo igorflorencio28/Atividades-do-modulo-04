@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+        background-color: rgba(0, 0, 0, 0.952);
+}
+.cabeçalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+span {
+    border-style: solid;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+span a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 800px;
+    border-radius: 20px;
+
+}
+
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+    color: white;
+}
+
+.principal {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.depoimento {
+    font-weight: bold;
+    display: flex;
+    font-size: 2em;
+}
+
+.comentario {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.comentario1 {
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 570px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background: linear-gradient(175deg, gray 0%, rgb(27, 27, 151) 100%);
+    color: white;
+}
+
+.comentario2 {
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 570px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background: linear-gradient(175deg, gray 0%, rgb(27, 27, 151) 100%);
+    color: white;
+}
+
+.rodape {
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 700px;
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logo1 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.links2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+.links2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
